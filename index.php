@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -77,6 +78,7 @@
             <input class="form-control searchbox" type="searchbox" placeholder="&#61442; Search" aria-label="Search">
         </form>
     </nav>
+    </div>
     <div class="mt-5 mb-5 bg-dark w-100">
         <div class="embed-responsive embed-responsive-16by9" style="height: 400px;">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J-ArAhS-0bM" allowfullscreen="" style="background-size: contain;"></iframe>

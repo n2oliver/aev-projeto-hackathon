@@ -35,4 +35,5 @@
 }
 .searchbox {
     font-family: FontAwesome;
+    width: 100% !important;
 }
