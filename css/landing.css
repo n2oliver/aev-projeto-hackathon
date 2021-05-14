@@ -1,0 +1,17 @@
+.suporte {
+    font-size: xx-large;
+    background-color: lightgreen;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 1em;
+    border: black 1px solid;
+    margin: 1em;
+    position: fixed;
+    bottom: .1em;
+    right: .1em;
+}
+.bd-title {
+    font-weight: 100;
+    font-family: Helvetica;
+}

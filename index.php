@@ -9,59 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <style>
-        @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-        .suporte {
-            font-size: xx-large;
-            background-color: lightgreen;
-            width: 50px;
-            height: 50px;
-            text-align: center;
-            border-radius: 1em;
-            border: black 1px solid;
-            margin: 1em;
-            position: fixed;
-            bottom: .1em;
-            right: .1em;
-        }
-
-        .navbar {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-
-        .navbar-nav {
-            font-size: 1em;
-        }
-
-        .link {
-            color: #434db3 !important;
-            padding-right: .5rem;
-            padding-left: .5rem;
-            display: block;
-            padding: .5rem 1rem;
-            border-bottom: 2px solid transparent;
-        }
-        .link:hover {
-            text-decoration: none;
-            border-bottom: 2px solid #434db3;
-        }
-        .dropdown-menu {
-            min-width: auto;
-            border-top: 0px;
-        }
-
-        .dropdown-menu a {
-            color: #434db3;
-        }
-
-        .navbar-brand {
-            font-size: xx-large
-        }
-        .searchbox {
-            font-family: FontAwesome;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/landing.css" />
 </head>
 
 <body>
@@ -73,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="link" href="#">Quem somos</a>
+                    <a class="link" href="https://aevesporte.com.br/quem-somos/">Quem somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="link" href="#">A Equoterapia</a>
+                    <a class="link" href="https://aevesporte.com.br/a-equoterapia/">A Equoterapia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="link" href="#">Esportivo Adaptado</a>
+                    <a class="link" href="https://aevesporte.com.br/projeto-esportivo-adaptado/">Esportivo Adaptado</a>
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
@@ -88,9 +37,9 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">Cavalos</a>
-                            <a class="dropdown-item" href="#">Profissionais</a>
-                            <a class="dropdown-item" href="#">Fundadoras</a>
-                            <a class="dropdown-item" href="#">Diretoria</a>
+                            <a class="dropdown-item" href="https://aevesporte.com.br/equipe/">Profissionais</a>
+                            <a class="dropdown-item" href="https://aevesporte.com.br/fundadoras/">Fundadoras</a>
+                            <a class="dropdown-item" href="https://aevesporte.com.br/diretoria/">Diretoria</a>
                         </div>
                     </div>
                 </li>
@@ -119,11 +68,14 @@
             <input class="form-control searchbox" type="searchbox" placeholder="&#61442; Search" aria-label="Search">
         </form>
     </nav>
-    <div class="mt-5 bg-dark w-100">
-    <div class="embed-responsive embed-responsive-16by9" style="height: 400px;">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J-ArAhS-0bM" allowfullscreen="" style="background-size: contain;"></iframe>
+    <div class="mt-5 mb-5 bg-dark w-100">
+        <div class="embed-responsive embed-responsive-16by9" style="height: 400px;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J-ArAhS-0bM" allowfullscreen="" style="background-size: contain;"></iframe>
+        </div>
     </div>
-    </div>
+    <h1 class="bd-title text-center">Colabore com a gente</h1>
+    <p class="text-center">Veja como você pode contribuir para que crianças com necessidades especiais<br>
+                                    continuam recebendo equoterapia gratuitamente</p>
     <div class="suporte" style="display: none">?</div>
 </body>
 
