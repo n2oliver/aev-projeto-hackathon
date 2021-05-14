@@ -10,6 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <style>
+        @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
         .suporte {
             font-size: xx-large;
             background-color: lightgreen;
@@ -52,6 +53,9 @@
 
         .navbar-brand {
             font-size: xx-large
+        }
+        .searchbox {
+            font-family: FontAwesome;
         }
     </style>
 </head>
@@ -108,7 +112,7 @@
             </ul>
         </div>
         <form class="form-inline my-lg-0">
-            <input type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control searchbox" type="searchbox" placeholder="&#61442; Search" aria-label="Search">
         </form>
     </nav>
     <div class="container">
