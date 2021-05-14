@@ -44,11 +44,20 @@
                     </div>
                 </li>
 
-                <li class="nav-item">
-                    <a class="link" href="#">Mídias</a>
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                            Mídias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="https://aevesporte.com.br/accounting-blog/">Notícias</a>
+                            <a class="dropdown-item" href="https://aevesporte.com.br/fotos/">Fotos</a>
+                            <a class="dropdown-item" href="https://aevesporte.com.br/videos/">Vídeos</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="link" href="#">Transparência</a>
+                    <a class="link" href="https://aevesporte.com.br/transparencia/">Transparência</a>
                 </li>
                 <li class="nav-item">
                     <a class="link" href="#">Loja</a>
@@ -60,7 +69,7 @@
                     <a class="link" href="#">Colabore!</a>
                 </li>
                 <li class="nav-item">
-                    <a class="link" href="#">Contato!</a>
+                    <a class="link" href="https://aevesporte.com.br/contacts/">Contato!</a>
                 </li>
             </ul>
         </div>
@@ -73,9 +82,51 @@
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J-ArAhS-0bM" allowfullscreen="" style="background-size: contain;"></iframe>
         </div>
     </div>
-    <h1 class="bd-title text-center">Colabore com a gente</h1>
-    <p class="text-center">Veja como você pode contribuir para que crianças com necessidades especiais<br>
-                                    continuam recebendo equoterapia gratuitamente</p>
+    <div class="container">
+        <h1 class="bd-title text-center">Colabore com a gente</h1>
+        <p class="text-center">Veja como você pode contribuir para que crianças com necessidades especiais<br>
+                                        continuam recebendo equoterapia gratuitamente</p>
+        <div class="d-flex justify-content-center pt-2 bd-highlight">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="https://via.placeholder.com/200x100" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                    <a href="#"><h5 class="card-title text-center text-dark">Patrocine um cavalo</h5></a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img src="https://via.placeholder.com/200x100" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                    <a href="#"><h5 class="card-title text-center text-dark">Patrocine um praticante</h5></a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img src="https://via.placeholder.com/200x100" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                <a href="#"><h5 class="card-title text-center text-dark">Conheça nossa loja</h5></a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-2 bd-highlight">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="https://via.placeholder.com/200x100" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                    <a href="#"><h5 class="card-title text-center text-dark">Doe seu Imposto de Renda</h5></a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img src="https://via.placeholder.com/200x100" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                    <a href="#"><h5 class="card-title text-center text-dark">Troque seu presente de aniversário por uma doação</h5></a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img src="https://via.placeholder.com/200x100" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                <a href="#"><h5 class="card-title text-center text-dark">Passe um dia na fazenda</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="suporte" style="display: none">?</div>
 </body>
 
