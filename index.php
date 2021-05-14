@@ -40,8 +40,12 @@
             padding-left: .5rem;
             display: block;
             padding: .5rem 1rem;
+            border-bottom: 2px solid transparent;
         }
-
+        .link:hover {
+            text-decoration: none;
+            border-bottom: 2px solid #434db3;
+        }
         .dropdown-menu {
             min-width: auto;
             border-top: 0px;
@@ -79,7 +83,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
-                        <a class="link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
                             Equipe
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -115,7 +119,10 @@
             <input class="form-control searchbox" type="searchbox" placeholder="&#61442; Search" aria-label="Search">
         </form>
     </nav>
-    <div class="container">
+    <div class="mt-5 bg-dark w-100">
+    <div class="embed-responsive embed-responsive-16by9" style="height: 400px;">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J-ArAhS-0bM" allowfullscreen="" style="background-size: contain;"></iframe>
+    </div>
     </div>
     <div class="suporte" style="display: none">?</div>
 </body>
